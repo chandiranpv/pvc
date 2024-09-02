@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+/* .continer{
+    justify-content: center;
+} */
+.header{
+    background-color:gray;
+    border-radius: 39% 0% 33% 100% / 99% 100% 14% 39% ;
+    width: fit-content;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 250px;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    padding: 2.5px 100px;
+    word-spacing: 5px;
+}
+.logo span{
+    color: yellow;
+}
+.nav{
+    color: white;
+    font-size: 15px;
+    display: flex;
+}
+.nav div{
+    padding-top: 2.5px;
+    padding-left: 40px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 70px 150px;
+    
+}
+.contant p{
+    font-size: 35px;
+    /* display: flex; */
+}
+.contant i{
+    font-size: 60px;
+    padding: 20px 50px;
+}
+.media{
+    padding: 10px;
+    font-size: 20px ;
+position: absolute;
+    top: 50px;
+    right: 10px;
+}
+.media i{
+    font-size: 20px;
+    /* padding: 0px 0px 20px 1450px; */
+    border-radius: 5px;
+    
+}
+.photo{
+      padding: 0px 20px;
+}
+.photo img{
+    height: 300px;
+    position: absolute;
+    top: 69px;
+    right: 400px;
+    }
+    .titie{
+        padding-left:150px ;
+        font-size: 20px;
+        color: yellow;
+    }
+    .titie span{
+        color: black;
+    }
+    .app{
+        
+        display: flex;
+        
+        justify-content:space-around;
+       padding: 50px 500px;
+    }
+    .ico {
+         height: 150px;
+        width: 150px;
+        border: 5px solid yellow;
+        border-radius: 100px;
+        padding: 50px 50px;
+        text-align: center;
+        font-size: 20px;
+        }
+        .box{
+            padding: 20px;
+            align-content: center;
+            padding-left: 800px;
+             }
+ .box p{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    
+    }
+    .my{
+        color: yellow;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .my span{
+        color: black;
+    }
+    .poto{
+       justify-content: center;
+       padding: 20px 200px; 
+       display: flex;
+       align-items: center;
+       margin: 10px;
+     }
+     .poto div img{
+        height: 200px;
+        width: 400px;
+     }
+    .poto img{
+        height: 200px;
+        width: 200px;
+        margin: 10px;
+        display: grid;
+        
+    }
+    .poto2{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .poto2 img{
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+ }
+ 
+ 
+ .see{
+    padding: 20px;
+    padding-left:800px;
+    align-items: center;
+    
+ }
+ .see p{
+    width: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+ }
